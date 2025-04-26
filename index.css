@@ -1,0 +1,94 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    background-color: rgb(171, 171, 214);
+}
+
+.main{
+    width:40vw;
+    height:fit-content;
+    text-align:center;
+    background-color: whitesmoke;
+    margin:50px auto;
+    padding:20px;
+    border-radius: 20px;
+    box-shadow: inset -5px -5px 5px  gray;
+    transition: transform 0.3s ease-in-out;
+    overflow: auto;
+}
+.main:hover{
+    transform: scale(1.1);
+}
+.qr-code{
+    width:100%;
+    height:70%;
+    border-radius:15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.qr-code:hover{
+    transform:scale(1.05);
+}
+
+.bold-text{
+    font-weight:800;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.1rem;
+}
+
+.qr-scan{
+    color:rgb(88, 84, 84);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:500;
+}
+
+.attribution{
+    margin:0;
+}
+
+.attribution a{
+    text-decoration: none;
+}
+.attribution a:focus {
+    outline: 2px solid purple;
+    outline-offset: 2px;
+}
+
+
+.attribution a:hover{
+    cursor:pointer;
+    color: purple;
+}
+
+.attribution p{
+    margin-bottom:0;
+    margin-top: 0;
+}
+
+@media (max-width:768px){
+    .main{
+        width:40vw;
+        padding:15px;
+    }
+
+    .bold-text{
+        font-size:1rem;
+    }
+
+    .qr-scan{
+        font-size:0.9rem;
+    }
+}
+
+@media (max-width:1024px) and (min-width:769px){
+.main{
+    max-width:300px;
+}
+}
+
+@media(min-width:1025px){
+    .main{
+        max-width:300px;
+    }
+}
