@@ -8,6 +8,8 @@ function Card(){
       <Image imgSrc='src\assets\images\illustration-article.svg' style='rounded-xl'/>
 
     <Button />
+
+    <Paragraph content='Published 21 Dec 2023' style='font-semibold' />
     </div>
   )
 }
