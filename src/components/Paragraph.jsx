@@ -1,6 +1,6 @@
 function Paragraph({ content, style }){
   return(
-    <p classname={style}>
+    <p className={style}>
       {content}
     </p>
   )
