@@ -1,8 +1,12 @@
+import Button from "./Button";
+import Image from "./Image";
+
 function Card(){
   return(
     <div className="bg-white w-fit h-fit p-3 rounded-xl m-auto">
-      <img src="src\assets\images\illustration-article.svg" className="rounded-xl" alt="" />
+      <Image imgSrc='src\assets\images\illustration-article.svg' style='rounded-xl'/>
 
+    <Button />
     </div>
   )
 }
