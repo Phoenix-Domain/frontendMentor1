@@ -1,6 +1,7 @@
 import Button from "./Button";
 import Image from "./Image";
 import Paragraph from "./Paragraph";
+import Header from "./Header";
 
 function Card(){
   return(
