@@ -16,8 +16,10 @@ function Card(){
 
       <Paragraph content='These languages are the backbone of every website, defining structure, content and presentation' style='text-gray-500' />
 
-     <div>
+     <div className="mt-4 flex gap-4 items-center w-fit">
       <Image imgSrc='src\assets\images\image-avatar.webp' style='w-10'/>
+
+      <Paragraph content='Greg Hooper' style='font-bold' />
      </div>
 
     </div>
