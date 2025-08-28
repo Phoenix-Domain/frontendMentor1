@@ -1,8 +1,8 @@
-function Header({ size, content }){
+function Header({ size, content, style }){
   const Tag = `h${size}`;
 
   return(
-    <Tag>
+    <Tag className={style}>
       {content}
     </Tag>
   )
