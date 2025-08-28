@@ -11,6 +11,8 @@ function Card(){
     <Button />
 
     <Paragraph content='Published 21 Dec 2023' style='font-semibold' />
+
+    <Header size='1' content='HTML & CSS foundations' style='text-3xl font-bold my-4' />
     </div>
   )
 }
