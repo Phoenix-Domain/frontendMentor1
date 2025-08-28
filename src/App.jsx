@@ -1,7 +1,7 @@
 function App() {
 
   return (
-    <div class="flex justify-center md:my-24 md:items-center min-h-screen">
+    <div class="bg-[hsl(332,51%,32%)]flex justify-center md:my-24 md:items-center min-h-screen">
     <div class="flex flex-col w-full md:w-132 md:rounded-xl md:p-4 bg-white">
       <img class="rounded mb-8" src={`${import.meta.env.BASE_URL}image-omelette.jpeg`} alt="Picture of omelette with spinach and seasoning" />
       <div class="mx-8 mb-4 md:mx-2 md:mb-6">
