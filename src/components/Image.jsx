@@ -1,6 +1,6 @@
-function Image({ imgSrc, style }){
+function Image({ imgSrc, style, altText }){
   return(
-    <img src={imgSrc} className={style} alt="" />
+    <img src={imgSrc} className={style} alt={`Photo of ${altText}`} />
   )
 }
 
