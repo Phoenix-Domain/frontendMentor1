@@ -4,9 +4,9 @@ This project contains my various solutions to challenges from [Frontend Mentor](
 
 Each solution demonstrates different frontend development skills and approaches. Explore my [Frontend Mentor Profile](https://www.frontendmentor.io/profile/Phoenix-Domain) to see how I tackled each challenge!
 
-# Frontend Mentor - Blog preview card
+# Frontend Mentor - Social links profile
 
-![Design preview for the Blog preview card coding challenge](./preview.jpg)
+![Design preview for the Social links profile coding challenge](./preview.jpg)
 
 ## Welcome! 👋
 
@@ -18,11 +18,11 @@ Thanks for checking out this front-end coding challenge.
 
 ## The challenge
 
-Your challenge is to build out this blog preview card and get it looking as close to the design as possible.
+Your challenge is to build out this social links profile and get it looking as close to the design as possible.
 
 You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
-Your users should be able to:
+Your users should be able to: 
 
 - See hover and focus states for all interactive elements on the page
 
