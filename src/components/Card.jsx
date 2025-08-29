@@ -23,7 +23,7 @@ function Card(){
     <section className="max-w-[375px] flex flex-col lg:max-w-[600px] lg:flex-row bg-white rounded-t-xl lg:rounded-tr-none lg:rounded-l-xl mx-auto overflow-hidden">
       <Image
       imgSrc={
-        isMobile ? '/image-product-mobile.jpg' : '/image-product-desktop.jpg'
+        isMobile ? 'image-product-mobile.jpg' : 'image-product-desktop.jpg'
       }
       altText='Photo of Image Product'
       style='rounded-t-xl lg:rounded-tr-none lg:rounded-l-xl w-full lg:w-1/2'
@@ -62,7 +62,7 @@ function Card(){
           content={
             <div className="flex gap-2 items-center justify-center font-bold">
               <Image 
-                imgSrc='/icon-cart.svg'
+                imgSrc='icon-cart.svg'
                 altText='Photo of cart icon'
               />
               Add to cart
